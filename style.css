@@ -1,0 +1,19 @@
+table{
+    width:100%;
+}
+td:nth-child(odd) {
+    background:lightblue;
+  }
+  
+td:nth-child(even) {
+    background: lightgreen;
+  }
+
+@media(max-width:1280px)
+{
+    .table{
+        width: 100%;
+        padding-left: 50px;
+        padding-right:50px;
+    }
+} 
